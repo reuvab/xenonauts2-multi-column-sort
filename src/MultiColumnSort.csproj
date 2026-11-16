@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MultiColumnSort</AssemblyName>
+    <RootNamespace>MultiColumnSort</RootNamespace>
+    <!-- Keep local build paths out of the shipped DLL. -->
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=/src</PathMap>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+</Project>

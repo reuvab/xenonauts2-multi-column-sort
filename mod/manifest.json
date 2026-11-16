@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "asset": {
+        "UID": "637bda48-7d13-4094-b1b6-e938ee8ff5b3",
+        "Name": "Multi-Column Sort",
+        "Description": "Ctrl-click (or Shift-click) a column header in the soldier lists to add it as a second sort level. Click it again the same way to reverse it, and a third time to remove it. A normal click returns to single-column sorting.",
+        "Author": "Reuven",
+        "Tags": ["UI", "QoL"],
+        "Dependencies": [
+            {
+                "UID": "7409d306-8813-4ae2-b2e2-8e94d4dc39f1",
+                "DisplayName": "Xenonauts"
+            }
+        ],
+        "LoadBefore": [],
+        "LoadAfter": [],
+        "IncompatibleWith": [],
+        "RemoveFiles": [],
+        "SupportedLanguages": [],
+        "Version": "0.1.0",
+        "$t": "14"
+    },
+    "$t": "15"
+}
