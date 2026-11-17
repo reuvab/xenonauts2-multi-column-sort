@@ -2,8 +2,10 @@
     "version": "0.1.0",
     "asset": {
         "UID": "637bda48-7d13-4094-b1b6-e938ee8ff5b3",
+        "WorkshopID": "3841387155",
         "Name": "Multi-Column Sort",
-        "Description": "Shift-click a column header in the soldier lists to add it as a second sort level. Click it again the same way to reverse it, and a third time to remove it. A normal click returns to single-column sorting.",
+        "Description": "Shift-click a column header in the soldier lists to add it as a second sort level. Click it again the same way to reverse it, and a third time to remove it. A normal click returns to single-column sorting.\n\nSource and bug reports: https://github.com/reuvab/xenonauts2-multi-column-sort",
+        "Visibility": "Public",
         "Author": "Reuven",
         "Tags": [
             "UI",
