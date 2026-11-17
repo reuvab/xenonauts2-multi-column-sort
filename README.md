@@ -4,12 +4,12 @@
 
 Adds extra sort levels to the soldier lists, the way spreadsheet grids do.
 
-- **Ctrl-click** a column header (Cmd-click or Shift-click also work) to add it as the next sort level.
+- **Shift-click** a column header to add it as the next sort level.
   The header gets a small marker with its position and direction, such as `2▼`.
-- Ctrl-click it again to reverse that level, and a third time to remove it.
+- Shift-click it again to reverse that level, and a third time to remove it.
 - A normal click on any header goes back to the game's single-column sort.
 
-Example: click STATUS, then Ctrl-click ACC. Soldiers are grouped by status and, inside each group,
+Example: click STATUS, then Shift-click ACC. Soldiers are grouped by status and, inside each group,
 ordered by accuracy.
 
 Works on Soldiers > Manage, Recruit and Memorial, and in the dropship soldier picker. If

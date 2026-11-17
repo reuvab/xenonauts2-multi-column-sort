@@ -123,11 +123,7 @@ internal static class SortScreens
         return false;
     }
 
-    private static bool ModifierHeld() =>
-        Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)
-        || Input.GetKey(KeyCode.LeftCommand) || Input.GetKey(KeyCode.RightCommand)
-        || Input.GetKey(KeyCode.LeftWindows) || Input.GetKey(KeyCode.RightWindows)
-        || Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+    private static bool ModifierHeld() => Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
     private static string Describe(SortLevels levels)
     {

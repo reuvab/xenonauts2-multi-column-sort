@@ -74,7 +74,7 @@ public static class SelectionEnterPatch
 
 // --- Header clicks ---
 
-// A click on a sort header with Ctrl, Cmd or Shift held changes the extra levels and never reaches
+// A click on a sort header with Shift held changes the extra levels and never reaches
 // the game, so the first-level column and its highlighted header stay as they are.
 [HarmonyPatch(typeof(GHIToggle), nameof(GHIToggle.OnPointerClick))]
 public static class HeaderClickPatch
