@@ -1,5 +1,7 @@
 # Multi-Column Sort (Xenonauts 2 mod)
 
+![Manage Soldiers sorted by TU, then ACC, RFL and BRV](docs/sort-levels.png)
+
 Adds extra sort levels to the soldier lists, the way spreadsheet grids do.
 
 - **Ctrl-click** a column header (Cmd-click or Shift-click also work) to add it as the next sort level.
